@@ -1,3 +1,8 @@
+var athletics = require('./athletics')
+athletics.relay();
+athletics.longJump();
+
+// --------------------------------
 // Method: 1 Normal function call
 function printstuff(stuff) {
     console.log(stuff);

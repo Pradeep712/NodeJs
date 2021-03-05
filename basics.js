@@ -5,7 +5,7 @@ console.log(__dirname);
 var printstuff=function (){
     console.log("Called timeout")
 }
-setTimeout(pssssrintstuff, 5000);
+setTimeout(printstuff, 5000);
 
 // setInterval function calls at regular intervals without breaking
 setInterval(printstuff,2000);
@@ -19,5 +19,5 @@ setTimeout(callback,2000);
 console.log("User 3 request");
 setTimeout(callback,3000);
 function callback(){
-    console.log("Quied request & Food Delivered")
+    console.log("Quied request & Food Delivered");
 }
