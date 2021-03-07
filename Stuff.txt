@@ -1,0 +1,11 @@
+var events = require('events');
+var eventemitter = new events.EventEmitter;
+var ringbell = function () {
+    console.log("Bell ringing");
+    eventemitter.emit('bellring',"Welcome Sir/Mam");
+}
+eventemitter.on('bellring',function(message){
+    console.log(message);
+});
+eventemitter.on('dooropen', ringbell)
+eventemitter.emit('dooropen');
