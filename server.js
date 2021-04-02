@@ -1,3 +1,11 @@
+const express = require('express')
+const mongoose = require('mongoose')
+const morgan = require('morgan')
+const bodyParser = require(body - parser)
+
+mongoose.connect('mongodb://localhost:27017/testdb')
+
+/*
 var http = require('http')
 const { on } = require('process');
 var onRequest = function (request, response) {
@@ -8,3 +16,4 @@ var onRequest = function (request, response) {
 }
 http.createServer(onRequest).listen(8888);
 console.log("Server created in port 8888");
+*/

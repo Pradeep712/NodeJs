@@ -4,9 +4,12 @@
   "description": "",
   "main": "app.js",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "mongodb": "^3.6.4",
+    "mongoose": "^5.12.0",
+    "morgan": "^1.10.0",
     "stripe": "^8.137.0"
   },
   "devDependencies": {
@@ -20,7 +23,7 @@
     "type": "git",
     "url": "git+https://github.com/Pradeep712/NodeJs.git"
   },
-  "author": "",
+  "author": "Pradeep",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Pradeep712/NodeJs/issues"
